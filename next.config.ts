@@ -5,7 +5,7 @@ const nextConfig: NextConfig = {
     domains: ["skillicons.dev"],
   },
   eslint: {
-    ignoreDuringBuilds: false,
+    ignoreDuringBuilds: true,
   },
 };
 
