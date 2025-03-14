@@ -23,7 +23,7 @@ export default function AnimatedText() {
 
   const animateText = useCallback(async (nextText: string) => {
     setIsAnimating(true);
-    const currentText = displayText;
+
     const maxLength = nextText.length-15; // Keep the scrambled text size close to target length
   
     // Scrambling effect
