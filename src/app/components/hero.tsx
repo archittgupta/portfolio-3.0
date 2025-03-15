@@ -1,12 +1,12 @@
 "use client";
 import React from "react";
-import { ShootingStars } from "@/components/ui/shooting-stars";
-import { StarsBackground } from "@/components/ui/stars-background";
+import { ShootingStars } from "@/app/components/ui/shooting-stars";
+import { StarsBackground } from "@/app/components/ui/stars-background";
 import AnimatedText from "./ui/animated-text";
 import TechStack from "./tech-stack";
 import Footer from "./footer";
 
-export function Hero() {
+export default function Hero() {
   return (
     <div className="min-h-screen w-full bg-neutral-900 flex flex-col items-center  relative px-6 md:px-12">
       
