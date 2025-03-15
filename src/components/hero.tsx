@@ -1,8 +1,8 @@
 "use client";
 import React from "react";
-import { ShootingStars } from "@/app/components/ui/shooting-stars";
-import { StarsBackground } from "@/app/components/ui/stars-background";
-import AnimatedText from "./ui/animated-text";
+import { ShootingStars } from "@/ui/shooting-stars";
+import { StarsBackground } from "@/ui/stars-background";
+import AnimatedText from "../ui/animated-text";
 import TechStack from "./tech-stack";
 import Footer from "./footer";
 
